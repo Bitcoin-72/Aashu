@@ -1,14 +1,8 @@
 # For Aashu
 
-A cinematic interactive love story from Tirthu to Aashu.
+## Personalising the website
 
-## Run locally
+- Replace the eight files in `public/images/` (`memory-01.jpeg` through `memory-08.jpeg`) with your own photos. Keep the filenames the same, or update the `photos` array in `src/data/content.ts`.
+- Edit names, captions, promises, and the apology copy in `src/data/content.ts` and `src/App.tsx`.
 
-```bash
-npm install
-npm run dev
-```
-
-Build with `npm run build`. Deploy to Netlify with build command `npm run build` and publish directory `dist`.
-
-Replace the photos in `public/images/` to personalize the memories.  
+Run `npm install`, then `npm run dev`. For a public deployment, import the folder into Vercel or Netlify; the build command is `npm run build` and the output folder is `dist`.
